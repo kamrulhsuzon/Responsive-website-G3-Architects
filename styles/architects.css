@@ -7,3 +7,128 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* Shared styles */
+.display-felx {
+    display: flex;
+}
+.primary-btn{
+    color: white;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+}
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+
+}
+/* color dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* color dark 03 */
+.text-light-gary {
+    color: #727272;
+}
+
+/* Header styles */
+
+/* navber styles */
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navber {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    font-weight: 700;
+    font-size: 2.8rem;
+
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+
+/* banner related style */
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-size: small;
+    font-weight: 400;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* Team Related Styles */
+.teams-container{
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 80px;
+    max-width: 540px;
+}
+.eam-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 600;
+}
+.features{
+    color: #FF900E;
+}
+.team-description{
+    font-size: 1.25rem;
+    color: #727272;
+}
+/* Responsive Media Query */
+@media screen and (max-width:576px) {
+  .display-felx  {
+
+        flex-direction: column;
+        
+    }
+    
+}
